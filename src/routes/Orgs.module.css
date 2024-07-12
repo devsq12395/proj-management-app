@@ -1,0 +1,30 @@
+.orgs {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orgsForm {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.orgsFormInputs {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.orgsFormButtons {
+    display: flex;
+    gap: 25px;
+}

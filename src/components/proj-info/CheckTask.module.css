@@ -1,0 +1,28 @@
+
+.checkTask {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    zIndex: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkTaskPopup {
+    width: 70%;
+    height: 500px;
+    zIndex: 101;
+    background-color: #fff;
+    padding: 15px 0px 0px 0px;
+
+    color: #000;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

@@ -1,0 +1,102 @@
+
+.projectsSection {
+    width: 100vw;
+    margin: 20px 0px 0px 0px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.projectsWindow {
+    width: 80%;
+    height: 600px;
+    max-height: 80%;
+    overflow-y: auto; 
+
+    background-color: var(--color-ocean-3);
+
+    padding: 10px 0px 10px 0px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.project {
+    width: 80%;
+    min-height: 200px;
+    background-color: var(--color-ocean-2);
+
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+
+.projElemsLeft {
+    width: 65%;
+    height: 75%;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projElemsBtns {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.projElemsBtns button {
+    width: 30%;
+    height: 35px;
+}
+
+.addProj {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    zIndex: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addProjPopup {
+    width: 70%;
+    height: 500px;
+    zIndex: 101;
+    background-color: #fff;
+    padding: 15px 0px 0px 0px;
+
+    color: #000;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.addProjForm {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.addProjFormButtons {
+    display: flex;
+    gap: 25px;
+}

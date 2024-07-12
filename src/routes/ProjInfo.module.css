@@ -1,0 +1,24 @@
+
+.projInfo {
+    width: 100vw;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.projInfoDetails {
+    width: 80%;
+    height: 600px;
+    max-height: 80%;
+    overflow-y: auto; 
+
+    background-color: var(--color-ocean-3);
+
+    padding: 10px 0px 10px 0px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 5px;
+}

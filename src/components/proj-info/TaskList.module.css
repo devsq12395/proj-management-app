@@ -1,0 +1,129 @@
+
+.taskListWindow {
+    width: 95%;
+    height: 65%;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+
+    background-color: var(--color-ocean-3);
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.taskListWindowBtns {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+
+.taskList {
+    width: 95%;
+    height: 85%;
+    margin: 0px 0px 0px 0px;
+    overflow-y: auto; 
+
+    background-color: var(--color-ocean-2);
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.taskListEntry {
+    width: 95%;
+    min-height: 200px;
+    margin: 10px 0px 0px 0px;
+
+    background-color: var(--color-ocean-1);
+
+    color: #000;
+
+    display: flex;
+    flex-flow: column;
+}
+
+.taskListEntryTextElems {
+    height: 80%;
+
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+}
+
+.taskListEntryLeftElems {
+    width: 60%;
+    padding: 10px 0px 0px 10px;
+}
+
+.taskListEntryRightElems {
+    width: 40%;
+    text-align: right;
+    padding: 0px 10px 0px 0px;
+}
+
+.taskListEntryBtns {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.taskListEntryBtns button {
+    width: 30%;
+}
+
+.addTask {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    zIndex: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTaskPopup {
+    width: 70%;
+    height: 500px;
+    zIndex: 101;
+    background-color: #fff;
+    padding: 15px 0px 0px 0px;
+
+    color: #000;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.addTaskForm {
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.addTaskFormButtons {
+    width: 100%;
+    margin: 55px 0px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.addTaskFormButtons button {
+    width: 30%;
+    height: 35px;
+}

@@ -1,0 +1,32 @@
+
+.notifsSection {
+    width: 100vw;
+    margin: 20px 0px 0px 0px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.notifsWindow {
+    width: 80%;
+    height: 600px;
+    max-height: 80%;
+    overflow-y: auto; 
+
+    background-color: #378CE7;
+
+    padding: 10px 0px 10px 0px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.notif {
+    width: 80%;
+    min-height: 100px;
+    background-color: #67C6E3;
+}

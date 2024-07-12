@@ -1,0 +1,41 @@
+.projInfo {
+    width: 100vw;
+    height: 800px;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.projInfoSection {
+    width: 80%;
+    height: 250px;
+    margin: 20px 0px 0px 0px;
+    background-color: var(--color-ocean-3);
+
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.projInfoSectionLeft {
+    height: 70%;
+
+    text-align: left;
+    margin: 10px 0px 0px 15px;
+
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.projInfoSectionBtns {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projInfoSectionBtns button {
+    width: 25%;
+}

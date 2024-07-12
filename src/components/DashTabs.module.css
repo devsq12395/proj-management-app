@@ -1,0 +1,22 @@
+
+.tabs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    color: #000;
+    width: 100px;
+    height: 50px;
+
+    border: 1px solid #fff;
+}
+
+.tabUnselected {
+    background-color: #E0CCBE;
+}
+
+.tabSelected {
+    background-color: #EEEDEB;
+}
